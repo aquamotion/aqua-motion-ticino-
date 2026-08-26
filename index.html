@@ -2,121 +2,400 @@
 <html lang="it">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <title>Aqua Motion | Piscine Waterair in tutto il Ticino</title>
-<meta name="description" content="Aqua Motion: piscine Waterair su misura in tutto il Ticino. Consulenza, progettazione, installazione, manutenzione e assistenza in tutto il Cantone.">
+<meta name="description" content="Aqua Motion: piscine Waterair su misura in tutto il Ticino. Consulenza, progettazione, installazione, manutenzione e assistenza. Configura la tua piscina online o contattaci su WhatsApp.">
+<meta name="keywords" content="piscine Ticino, piscina Ticino, costruzione piscine Ticino, installazione piscine Ticino, manutenzione piscine Ticino, Waterair Ticino, Poolbau Tessin, Schwimmbad Tessin">
 <meta name="robots" content="index,follow">
+<meta property="og:title" content="Aqua Motion – Piscine Waterair in tutto il Ticino">
+<meta property="og:description" content="Configura la tua piscina e parla direttamente con Aqua Motion. Servizio completo in tutto il Ticino.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://aqua-motion.ch/">
 <link rel="canonical" href="https://aqua-motion.ch/">
 <style>
-:root{--navy:#05283b;--navy2:#073f57;--aqua:#20d9df;--mint:#55e6bc;--cream:#f6f3ed;--ink:#102c3a;--muted:#647984;--white:#fff}
-*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Inter,system-ui,-apple-system,"Segoe UI",sans-serif;background:var(--cream);color:var(--ink)}a{text-decoration:none;color:inherit}.wrap{width:min(1180px,92%);margin:auto}
-.top{position:fixed;z-index:50;inset:0 0 auto;background:rgba(3,30,45,.93);backdrop-filter:blur(12px);border-bottom:1px solid #ffffff20}.nav{height:76px;display:flex;align-items:center;gap:22px;color:#fff}.logo{display:flex;align-items:center;gap:10px}.mark{font-size:34px;color:var(--aqua)}.logotype b{font-size:20px;letter-spacing:2px}.logotype small{display:block;color:#69e6eb;letter-spacing:3px;font-size:9px}.links{margin-left:auto;display:flex;gap:20px;font-size:14px}.links a:hover{color:var(--aqua)}.lang{display:flex;gap:3px}.lang button{border:1px solid #ffffff35;background:transparent;color:white;border-radius:20px;padding:7px 10px;font-weight:800}.lang .active{background:#fff;color:var(--navy)}
-.hero{min-height:760px;padding-top:76px;color:white;display:flex;align-items:center;position:relative;background:linear-gradient(90deg,rgba(3,28,43,.92),rgba(3,28,43,.55) 47%,rgba(3,28,43,.10)),url('https://images.unsplash.com/photo-1572331165267-854da2b10ccc?auto=format&fit=crop&w=1900&q=90') center/cover no-repeat}.hero:after{content:"";position:absolute;inset:auto 0 0;height:100px;background:linear-gradient(transparent,var(--cream))}.heroIn{position:relative;z-index:2;padding:85px 0 130px}.eyebrow{color:#67edf0;letter-spacing:2.5px;font-size:13px;font-weight:900}.hero h1{font-size:clamp(46px,7vw,80px);line-height:1;margin:15px 0 20px;max-width:800px}.hero h1 span{color:#58ebd7}.hero p{font-size:20px;line-height:1.55;max-width:700px;color:#e4f5f7}.cta{display:flex;gap:12px;flex-wrap:wrap;margin-top:28px}.btn{display:inline-flex;align-items:center;justify-content:center;border-radius:999px;padding:15px 21px;font-weight:900;border:1px solid transparent;cursor:pointer}.primary{background:linear-gradient(90deg,#23d9eb,#51e7b6);color:#032839}.ghost{border-color:#ffffff80;background:#052c4099;color:#fff}
-.trust{position:relative;z-index:4;margin-top:-55px}.trustbox{display:grid;grid-template-columns:repeat(4,1fr);background:#fff;border-radius:22px;box-shadow:0 18px 55px #06283c24;overflow:hidden}.trustitem{padding:22px;border-right:1px solid #e4ecef}.trustitem:last-child{border:0}.trustitem b{display:block}.trustitem small{color:var(--muted)}
-section{padding:82px 0}.head{text-align:center;max-width:800px;margin:0 auto 38px}.kicker{color:#069aaa;font-size:12px;letter-spacing:2px;font-weight:900}.head h2{font-size:clamp(34px,5vw,51px);margin:9px 0}.head p{color:var(--muted);font-size:18px;line-height:1.55}
-.models{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}.card{background:#fff;border:1px solid #e3ecee;border-radius:21px;overflow:hidden;box-shadow:0 12px 35px #082b3c12}.card img{width:100%;height:225px;object-fit:cover}.cardbody{padding:20px}.shape{font-size:11px;letter-spacing:1.4px;font-weight:900;color:#079dab}.card h3{font-size:23px;margin:5px 0}.card p{color:var(--muted);font-size:14px;line-height:1.5}
-.configSec{background:linear-gradient(135deg,#05283b,#07536a);color:#fff}.configIntro{text-align:center;max-width:820px;margin:0 auto 30px}.configIntro h2{font-size:clamp(36px,5vw,52px);margin:8px 0}.progress{display:grid;grid-template-columns:repeat(5,1fr);gap:8px;margin-bottom:18px}.prog{padding:10px 6px;border-radius:12px;text-align:center;background:#ffffff12;border:1px solid #ffffff20;font-size:12px}.prog.active{background:var(--aqua);color:#032839;font-weight:900}
-.panel{max-width:850px;margin:auto;background:#fff;color:var(--ink);border-radius:24px;padding:25px;box-shadow:0 30px 70px #0004}.screen{display:none}.screen.active{display:block}.screen h3{font-size:27px;margin:0 0 18px}.choices{display:grid;grid-template-columns:repeat(2,1fr);gap:12px}.choice{padding:17px;border:2px solid #dce7ea;border-radius:16px;background:#fff;text-align:left;font:inherit;cursor:pointer}.choice:hover,.choice.selected{border-color:#16bfc7;background:#effcfa}.choice b{display:block;font-size:17px}.choice small{color:var(--muted)}.navBtns{display:flex;justify-content:space-between;gap:10px;margin-top:22px}.summary{background:#ecf9f7;border-radius:17px;padding:19px;line-height:1.8}.summary b{color:#075e6c}.form{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:16px}.form input{padding:14px;border:1px solid #d7e4e7;border-radius:12px;font:inherit}.full{grid-column:1/-1}.send{width:100%;margin-top:15px}
-.services{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}.service{background:#fff;border:1px solid #e2ebed;border-radius:20px;padding:24px}.service .ico{font-size:30px}.service h3{margin:12px 0 7px}.service p{color:var(--muted);font-size:14px;line-height:1.55}
-.gallery{display:grid;grid-template-columns:1.2fr .8fr .8fr;gap:12px}.gallery img{width:100%;height:360px;object-fit:cover;border-radius:20px}.gallery img:not(:first-child){height:360px}
-.local{background:#fff}.locations{display:flex;flex-wrap:wrap;justify-content:center;gap:10px}.loc{padding:11px 16px;border:1px solid #dce7e9;border-radius:999px;font-weight:800}.lugano{background:#e5fbf7;border-color:#38cfc5;color:#075b66}
-.contact{position:relative;color:#fff;background:linear-gradient(90deg,#03273ddd,#03273d66),url('https://images.unsplash.com/photo-1572331165267-854da2b10ccc?auto=format&fit=crop&w=1800&q=90') center/cover no-repeat}.contactbox{max-width:720px;background:#052c40cc;padding:30px;border-radius:22px;backdrop-filter:blur(7px)}.contact h2{font-size:clamp(36px,5vw,50px);margin:8px 0}.contact p{font-size:18px;line-height:1.6}
-footer{background:#041b2a;color:#c9dce2;padding:38px 0}.foot{display:grid;grid-template-columns:1.3fr 1fr 1fr;gap:25px}.foot h4{color:#fff}.foot p,.foot a{color:#abc4cc;font-size:14px;line-height:1.8}
-.floatWA{position:fixed;z-index:60;right:16px;bottom:18px;background:#25d366;color:#fff;border-radius:999px;padding:14px 17px;font-weight:900;box-shadow:0 10px 30px #0004}
-@media(max-width:900px){.links{display:none}.nav{justify-content:space-between}.trustbox,.models,.services{grid-template-columns:1fr 1fr}.gallery{grid-template-columns:1fr}.gallery img,.gallery img:not(:first-child){height:300px}.foot{grid-template-columns:1fr}.hero{background-position:58% center}}
-@media(max-width:560px){.hero{min-height:700px}.hero h1{font-size:49px}.hero p{font-size:17px}.trustbox,.models,.services,.choices,.form{grid-template-columns:1fr}.progress{grid-template-columns:repeat(5,1fr);gap:4px}.prog{font-size:9px;padding:8px 2px}.card img{height:235px}.full{grid-column:auto}.panel{padding:18px}}
+:root{
+  --navy:#06263a;--navy2:#0a3c55;--aqua:#19d3dc;--mint:#4de2bd;
+  --white:#fff;--cream:#f5f7f7;--ink:#0c2938;--muted:#667b85;
+  --line:#dfe9ec;--shadow:0 18px 55px rgba(6,38,58,.14)
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;background:var(--cream);color:var(--ink)}
+a{text-decoration:none;color:inherit}
+button,input{font:inherit}
+.wrap{width:min(1180px,92%);margin:auto}
+.top{position:fixed;z-index:100;left:0;right:0;top:0;background:rgba(3,26,40,.93);backdrop-filter:blur(12px);border-bottom:1px solid rgba(255,255,255,.12)}
+.nav{height:76px;display:flex;align-items:center;gap:24px;color:white}
+.logo{display:flex;align-items:center;gap:10px;white-space:nowrap}
+.logoMark{font-size:35px;line-height:1;color:var(--aqua);font-weight:900;transform:translateY(-2px)}
+.logotype b{font-size:20px;letter-spacing:2.2px}
+.logotype small{display:block;color:#61e5eb;font-size:9px;letter-spacing:3.4px;margin-top:1px}
+.links{margin-left:auto;display:flex;gap:20px;font-size:14px}
+.links a{opacity:.88}
+.links a:hover{opacity:1;color:var(--aqua)}
+.lang{display:flex;gap:3px;background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.16);border-radius:999px;padding:3px}
+.lang button{border:0;background:transparent;color:#fff;border-radius:999px;padding:7px 10px;font-weight:800;cursor:pointer}
+.lang button.active{background:#fff;color:var(--navy)}
+
+.hero{min-height:780px;padding-top:76px;display:flex;align-items:center;position:relative;color:#fff;background:
+linear-gradient(90deg,rgba(3,26,40,.93) 0%,rgba(3,26,40,.68) 44%,rgba(3,26,40,.20) 76%),
+url('https://images.unsplash.com/photo-1572331165267-854da2b10ccc?auto=format&fit=crop&w=2000&q=92') center/cover no-repeat}
+.hero:after{content:"";position:absolute;left:0;right:0;bottom:0;height:110px;background:linear-gradient(transparent,var(--cream))}
+.heroIn{position:relative;z-index:2;padding:100px 0 145px}
+.eyebrow{font-size:13px;letter-spacing:2.7px;font-weight:900;color:#66edf0}
+.hero h1{font-size:clamp(48px,7vw,82px);line-height:.98;max-width:850px;margin:15px 0 20px}
+.hero h1 span{color:#59ead9}
+.hero p{font-size:20px;line-height:1.55;max-width:720px;color:#e6f4f6}
+.cta{display:flex;gap:12px;flex-wrap:wrap;margin-top:28px}
+.btn{display:inline-flex;align-items:center;justify-content:center;border-radius:999px;padding:15px 22px;font-weight:900;border:1px solid transparent;cursor:pointer;transition:.2s}
+.btn:hover{transform:translateY(-2px)}
+.primary{background:linear-gradient(90deg,#22d9eb,#4fe5b7);color:#032638}
+.ghost{background:rgba(3,36,54,.42);border-color:rgba(255,255,255,.58);color:#fff}
+
+.trust{position:relative;z-index:4;margin-top:-62px}
+.trustbox{display:grid;grid-template-columns:repeat(4,1fr);background:#fff;border-radius:24px;box-shadow:var(--shadow);overflow:hidden}
+.trustitem{padding:24px;border-right:1px solid var(--line)}
+.trustitem:last-child{border-right:0}
+.trustitem .icon{font-size:26px;margin-bottom:7px}
+.trustitem b{display:block;font-size:17px}
+.trustitem small{display:block;color:var(--muted);margin-top:4px;line-height:1.4}
+
+section{padding:84px 0}
+.head{text-align:center;max-width:820px;margin:0 auto 40px}
+.kicker{font-size:12px;letter-spacing:2px;font-weight:900;color:#069ba9}
+.head h2{font-size:clamp(34px,5vw,52px);margin:9px 0 12px}
+.head p{font-size:18px;line-height:1.6;color:var(--muted)}
+
+.poolGrid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.poolCard{position:relative;border-radius:22px;overflow:hidden;min-height:380px;box-shadow:var(--shadow);background:#0b3042}
+.poolCard img{width:100%;height:100%;position:absolute;inset:0;object-fit:cover}
+.poolCard:after{content:"";position:absolute;inset:0;background:linear-gradient(transparent 38%,rgba(3,29,44,.88))}
+.poolInfo{position:absolute;z-index:2;left:22px;right:22px;bottom:22px;color:#fff}
+.poolInfo span{font-size:11px;letter-spacing:1.5px;font-weight:900;color:#5be8e4}
+.poolInfo h3{font-size:26px;margin:6px 0 6px}
+.poolInfo p{margin:0;color:#dbecef;line-height:1.45;font-size:14px}
+
+.configSec{background:linear-gradient(135deg,#05283b,#07546b);color:#fff;position:relative;overflow:hidden}
+.configSec:before{content:"";position:absolute;width:520px;height:520px;border-radius:50%;background:rgba(65,231,215,.09);right:-180px;top:-170px}
+.configIntro{position:relative;z-index:2;text-align:center;max-width:840px;margin:0 auto 28px}
+.configIntro h2{font-size:clamp(36px,5vw,52px);margin:8px 0}
+.configIntro p{color:#d4e9ed;line-height:1.6}
+.progress{position:relative;z-index:2;max-width:900px;margin:0 auto 16px;display:grid;grid-template-columns:repeat(5,1fr);gap:8px}
+.prog{padding:10px 6px;text-align:center;border-radius:12px;background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.13);font-size:12px}
+.prog.active{background:var(--aqua);color:#032638;font-weight:900}
+.panel{position:relative;z-index:2;max-width:900px;margin:auto;background:#fff;color:var(--ink);border-radius:24px;padding:26px;box-shadow:0 30px 70px rgba(0,0,0,.24)}
+.screen{display:none}
+.screen.active{display:block}
+.screen h3{font-size:28px;margin:0 0 18px}
+.choices{display:grid;grid-template-columns:repeat(2,1fr);gap:12px}
+.choice{padding:18px;text-align:left;background:#fff;border:2px solid #dbe6e9;border-radius:16px;cursor:pointer}
+.choice.selected,.choice:hover{border-color:#18bfc8;background:#effcf9}
+.choice b{display:block;font-size:17px}
+.choice small{color:var(--muted)}
+.navBtns{display:flex;justify-content:space-between;gap:10px;margin-top:22px}
+.summary{background:#ecf9f7;border-radius:16px;padding:18px;line-height:1.8}
+.form{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:16px}
+.form input{padding:14px;border:1px solid #d8e4e7;border-radius:12px}
+.full{grid-column:1/-1}
+.send{width:100%;margin-top:14px}
+
+.services{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
+.service{background:#fff;border:1px solid var(--line);border-radius:20px;padding:24px}
+.service .ico{font-size:28px}
+.service h3{margin:12px 0 7px}
+.service p{font-size:14px;line-height:1.55;color:var(--muted)}
+
+.coverage{background:#fff}
+.coverBox{display:grid;grid-template-columns:.8fr 1.2fr;gap:30px;align-items:center;background:linear-gradient(135deg,#062a40,#0a465f);color:#fff;border-radius:26px;padding:34px;overflow:hidden}
+.coverVisual{min-height:300px;border-radius:20px;background:
+linear-gradient(rgba(3,30,45,.18),rgba(3,30,45,.18)),
+url('https://images.unsplash.com/photo-1560089000-7433a4ebbd64?auto=format&fit=crop&w=1100&q=90') center/cover no-repeat}
+.coverBox h2{font-size:clamp(35px,5vw,48px);margin:8px 0}
+.coverBox p{color:#d9edf1;line-height:1.65}
+.badges{display:flex;flex-wrap:wrap;gap:9px;margin-top:18px}
+.badge{border:1px solid rgba(255,255,255,.3);border-radius:999px;padding:9px 12px;font-weight:800;font-size:13px}
+
+.contact{position:relative;color:#fff;background:
+linear-gradient(90deg,rgba(3,31,47,.92),rgba(3,31,47,.38)),
+url('https://images.unsplash.com/photo-1576610616656-d3aa5d1f4534?auto=format&fit=crop&w=1900&q=90') center/cover no-repeat}
+.contactbox{max-width:740px;background:rgba(4,40,58,.75);backdrop-filter:blur(8px);padding:30px;border-radius:22px}
+.contact h2{font-size:clamp(36px,5vw,50px);margin:8px 0}
+.contact p{font-size:18px;line-height:1.6;color:#e4f3f5}
+
+footer{background:#041b2a;color:#c9dce2;padding:38px 0}
+.foot{display:grid;grid-template-columns:1.3fr 1fr 1fr;gap:28px}
+.foot h4{color:#fff}
+.foot p,.foot a{font-size:14px;color:#abc4cc;line-height:1.8}
+
+.floatWA{position:fixed;z-index:120;right:16px;bottom:18px;background:#25d366;color:#fff;border-radius:999px;padding:14px 17px;font-weight:900;box-shadow:0 10px 30px rgba(0,0,0,.28)}
+
+@media(max-width:900px){
+  .links{display:none}.nav{justify-content:space-between}.hero{background-position:58% center}
+  .trustbox{grid-template-columns:1fr 1fr}.poolGrid{grid-template-columns:1fr}.services{grid-template-columns:1fr 1fr}
+  .coverBox,.foot{grid-template-columns:1fr}.coverVisual{min-height:260px}
+}
+@media(max-width:560px){
+  .hero{min-height:720px}.hero h1{font-size:50px}.hero p{font-size:17px}
+  .trust{margin-top:-48px}.trustbox,.services,.choices,.form{grid-template-columns:1fr}
+  .progress{gap:4px}.prog{font-size:9px;padding:8px 2px}.full{grid-column:auto}
+  .panel{padding:18px}.poolCard{min-height:330px}
+}
 </style>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"LocalBusiness","name":"Aqua Motion","url":"https://aqua-motion.ch","email":"info@aqua-motion.ch","telephone":"+41763478247","areaServed":"Ticino","description":"Piscine Waterair, consulenza, progettazione, installazione, manutenzione e assistenza in tutto il Ticino."}
+</script>
 </head>
 <body>
-<header class="top"><div class="wrap nav">
-<a class="logo" href="#home"><span class="mark">≈</span><span class="logotype"><b>AQUA MOTION</b><small>POOL SOLUTIONS</small></span></a>
-<nav class="links"><a href="#piscine">Piscine</a><a href="#configuratore">Configuratore</a><a href="#servizi">Servizi</a><a href="#contatto">Contatti</a></nav>
-<div class="lang"><button id="itBtn" class="active">IT</button><button id="deBtn">DE</button></div>
-</div></header>
+
+<header class="top">
+  <div class="wrap nav">
+    <a href="#home" class="logo">
+      <span class="logoMark">≈</span>
+      <span class="logotype"><b>AQUA MOTION</b><small>POOL SOLUTIONS</small></span>
+    </a>
+    <nav class="links">
+      <a href="#piscine" data-it="Piscine" data-de="Pools">Piscine</a>
+      <a href="#configuratore" data-it="Configuratore" data-de="Konfigurator">Configuratore</a>
+      <a href="#servizi" data-it="Servizi" data-de="Leistungen">Servizi</a>
+      <a href="#contatto" data-it="Contatti" data-de="Kontakt">Contatti</a>
+    </nav>
+    <div class="lang"><button id="itBtn" class="active">IT</button><button id="deBtn">DE</button></div>
+  </div>
+</header>
 
 <main>
-<section class="hero" id="home"><div class="wrap heroIn">
-<div class="eyebrow" data-it="PARTNER WATERAIR IN TICINO" data-de="WATERAIR PARTNER IM TESSIN">PARTNER WATERAIR IN TICINO</div>
-<h1 data-it="La tua piscina. <span>In tutto il Ticino.</span>" data-de="Ihr eigener Pool. <span>Im ganzen Tessin.</span>">La tua piscina. <span>In tutto il Ticino.</span></h1>
-<p data-it="Dalla prima idea alla piscina pronta da vivere: consulenza, progettazione, installazione, manutenzione e assistenza con un referente locale." data-de="Von der ersten Idee bis zum fertigen Pool: Beratung, Planung, Installation, Wartung und persönlicher Service vor Ort.">Dalla prima idea alla piscina pronta da vivere: consulenza, progettazione, installazione, manutenzione e assistenza con un referente locale.</p>
-<div class="cta"><a href="#configuratore" class="btn primary" data-it="CONFIGURA LA TUA PISCINA" data-de="POOL KONFIGURIEREN">CONFIGURA LA TUA PISCINA</a><a href="https://wa.me/41763478247?text=Ciao%20Aqua%20Motion%2C%20vorrei%20informazioni%20per%20una%20piscina." class="btn ghost">WhatsApp</a></div>
-</div></section>
+<section class="hero" id="home">
+  <div class="wrap heroIn">
+    <div class="eyebrow" data-it="PARTNER WATERAIR IN TUTTO IL TICINO" data-de="WATERAIR PARTNER IM GANZEN TESSIN">PARTNER WATERAIR IN TUTTO IL TICINO</div>
+    <h1 data-it="La tua piscina. <span>In tutto il Ticino.</span>" data-de="Ihr eigener Pool. <span>Im ganzen Tessin.</span>">La tua piscina. <span>In tutto il Ticino.</span></h1>
+    <p data-it="Dalla prima idea alla piscina pronta da vivere: consulenza, progettazione, installazione, manutenzione e assistenza con un unico referente." data-de="Von der ersten Idee bis zum fertigen Pool: Beratung, Planung, Installation, Wartung und Service aus einer Hand.">Dalla prima idea alla piscina pronta da vivere: consulenza, progettazione, installazione, manutenzione e assistenza con un unico referente.</p>
+    <div class="cta">
+      <a href="#configuratore" class="btn primary" data-it="CONFIGURA LA TUA PISCINA" data-de="POOL KONFIGURIEREN">CONFIGURA LA TUA PISCINA</a>
+      <a href="https://wa.me/41763478247?text=Ciao%20Aqua%20Motion%2C%20vorrei%20informazioni%20per%20una%20piscina." class="btn ghost">WhatsApp</a>
+    </div>
+  </div>
+</section>
 
-<div class="trust"><div class="wrap trustbox">
-<div class="trustitem"><b>Waterair</b><small data-it="Partner in Ticino" data-de="Partner im Tessin">Partner in Ticino</small></div>
-<div class="trustitem"><b>30 anni</b><small data-it="Garanzia strutturale" data-de="Strukturgarantie">Garanzia strutturale</small></div>
-<div class="trustitem"><b>Tutto il Ticino</b><small data-it="Servizio locale" data-de="Lokaler Service">Servizio locale</small></div>
-<div class="trustitem"><b>360°</b><small data-it="Prima, durante e dopo" data-de="Vor, während und danach">Prima, durante e dopo</small></div>
-</div></div>
-
-<section id="piscine"><div class="wrap">
-<div class="head"><div class="kicker">PISCINE WATERAIR</div><h2 data-it="Il protagonista è il tuo pool" data-de="Ihr Pool steht im Mittelpunkt">Il protagonista è il tuo pool</h2><p data-it="Scegli la forma più adatta al tuo spazio. Ti aiutiamo a trasformare il progetto in una piscina da vivere ogni giorno." data-de="Wählen Sie die passende Form für Ihr Grundstück. Wir begleiten Sie vom Wunsch bis zum fertigen Pool.">Scegli la forma più adatta al tuo spazio. Ti aiutiamo a trasformare il progetto in una piscina da vivere ogni giorno.</p></div>
-<div class="models">
-<article class="card"><img src="https://images.unsplash.com/photo-1576610616656-d3aa5d1f4534?auto=format&fit=crop&w=900&q=90" alt="Piscina rettangolare"><div class="cardbody"><span class="shape">RETTANGOLARE</span><h3>Tina & Romy</h3><p>Linee pulite e moderne per giardini contemporanei.</p></div></article>
-<article class="card"><img src="https://images.unsplash.com/photo-1576013551627-0cc20b96c2a7?auto=format&fit=crop&w=900&q=90" alt="Piscina ovale"><div class="cardbody"><span class="shape">OVALE</span><h3>Ilona</h3><p>Una forma armoniosa che si integra naturalmente nel paesaggio.</p></div></article>
-<article class="card"><img src="https://images.unsplash.com/photo-1601918774946-25832a4be0d6?auto=format&fit=crop&w=900&q=90" alt="Piscina curva"><div class="cardbody"><span class="shape">CURVA</span><h3>Adele</h3><p>Curve eleganti per un giardino dal carattere unico.</p></div></article>
-<article class="card"><img src="https://images.unsplash.com/photo-1560089000-7433a4ebbd64?auto=format&fit=crop&w=900&q=90" alt="Piscina forma libera"><div class="cardbody"><span class="shape">FORMA LIBERA</span><h3>Inaya & Maria</h3><p>Una soluzione originale per spazi e progetti particolari.</p></div></article>
-</div></div></section>
-
-<section class="configSec" id="configuratore"><div class="wrap">
-<div class="configIntro"><div class="eyebrow">CONFIGURATORE AQUA MOTION</div><h2 data-it="La tua piscina in 5 passi" data-de="Ihr Pool in 5 Schritten">La tua piscina in 5 passi</h2><p data-it="Semplice, veloce e pensato per portarti dalla scelta del modello direttamente alla richiesta personale." data-de="Einfach und schnell – vom Modell bis zur persönlichen Anfrage.">Semplice, veloce e pensato per portarti dalla scelta del modello direttamente alla richiesta personale.</p></div>
-<div class="progress"><div class="prog active">1 FORMA</div><div class="prog">2 MISURA</div><div class="prog">3 LINEA</div><div class="prog">4 EXTRA</div><div class="prog">5 CONTATTO</div></div>
-<div class="panel">
-<div class="screen active" data-step="0"><h3>1. Scegli la forma</h3><div class="choices" data-key="model">
-<button class="choice selected" data-value="Tina & Romy"><b>Tina & Romy</b><small>Rettangolare</small></button>
-<button class="choice" data-value="Ilona"><b>Ilona</b><small>Ovale</small></button>
-<button class="choice" data-value="Adele"><b>Adele</b><small>Curva</small></button>
-<button class="choice" data-value="Inaya & Maria"><b>Inaya & Maria</b><small>Forma libera</small></button></div></div>
-<div class="screen" data-step="1"><h3>2. Scegli la dimensione</h3><div class="choices" data-key="size">
-<button class="choice selected" data-value="Compatta"><b>Compatta</b><small>Ideale per spazi contenuti</small></button>
-<button class="choice" data-value="Media"><b>Media</b><small>Comfort per tutta la famiglia</small></button>
-<button class="choice" data-value="Grande"><b>Grande</b><small>Più spazio per nuotare e vivere</small></button>
-<button class="choice" data-value="Da definire"><b>Da definire</b><small>La scegliamo insieme sul posto</small></button></div></div>
-<div class="screen" data-step="2"><h3>3. Scegli la linea</h3><div class="choices" data-key="equip">
-<button class="choice selected" data-value="Essential"><b>Essential</b><small>La base giusta per iniziare</small></button>
-<button class="choice" data-value="Eco-Wat"><b>Eco-Wat</b><small>Efficienza e comfort</small></button>
-<button class="choice" data-value="Eco-Pilot"><b>Eco-Pilot</b><small>Più automazione</small></button>
-<button class="choice" data-value="Top+"><b>Top+</b><small>Massimo comfort</small></button></div></div>
-<div class="screen" data-step="3"><h3>4. Aggiungi gli extra</h3><div class="choices extras">
-<button class="choice" data-extra="Pompa di calore"><b>Pompa di calore</b><small>Acqua piacevole più a lungo</small></button>
-<button class="choice" data-extra="Illuminazione LED"><b>LED</b><small>Atmosfera anche la sera</small></button>
-<button class="choice" data-extra="Copertura di sicurezza"><b>Copertura</b><small>Più protezione</small></button>
-<button class="choice" data-extra="Trattamento al sale"><b>Trattamento al sale</b><small>Comfort nella gestione dell'acqua</small></button></div></div>
-<div class="screen" data-step="4"><h3>5. Ricevi la tua consulenza</h3><div class="summary" id="summary"></div><div class="form"><input id="name" placeholder="Nome e cognome"><input id="place" placeholder="Località in Ticino"><input class="full" id="phone" placeholder="Telefono"></div><button id="send" class="btn primary send">INVIA SU WHATSAPP</button></div>
-<div class="navBtns"><button id="back" class="btn" style="background:#e9eff1;color:#163745;visibility:hidden">← Indietro</button><button id="next" class="btn primary">Avanti →</button></div>
-</div></div></section>
-
-<section id="servizi"><div class="wrap"><div class="head"><div class="kicker">AQUA MOTION 360°</div><h2 data-it="Un solo partner per tutto" data-de="Ein Partner für alles">Un solo partner per tutto</h2></div>
-<div class="services"><div class="service"><div class="ico">✦</div><h3>Consulenza</h3><p>Valutiamo spazio, desideri e soluzione più adatta.</p></div><div class="service"><div class="ico">⚙</div><h3>Installazione</h3><p>Coordinamento e montaggio professionale della piscina.</p></div><div class="service"><div class="ico">💧</div><h3>Manutenzione</h3><p>Pulizia, acqua, avviamento stagionale e cura continuativa.</p></div><div class="service"><div class="ico">♡</div><h3>Assistenza</h3><p>Un referente locale anche dopo la realizzazione.</p></div></div></div></section>
-
-<section style="padding-top:0"><div class="wrap">
-<div class="head"><div class="kicker">ISPIRAZIONE</div><h2>Immagina la tua piscina</h2><p>Ogni spazio è diverso. Ti aiutiamo a trovare una soluzione che valorizzi la tua casa e il tuo giardino.</p></div>
-<div class="gallery">
-<img src="https://images.unsplash.com/photo-1572331165267-854da2b10ccc?auto=format&fit=crop&w=1200&q=90" alt="Piscina moderna in giardino">
-<img src="https://images.unsplash.com/photo-1576013551627-0cc20b96c2a7?auto=format&fit=crop&w=900&q=90" alt="Piscina privata">
-<img src="https://images.unsplash.com/photo-1576610616656-d3aa5d1f4534?auto=format&fit=crop&w=900&q=90" alt="Piscina residenziale">
+<div class="trust">
+  <div class="wrap trustbox">
+    <div class="trustitem"><div class="icon">🏅</div><b>Waterair Partner</b><small data-it="Competenza e qualità" data-de="Kompetenz und Qualität">Competenza e qualità</small></div>
+    <div class="trustitem"><div class="icon">🛡️</div><b data-it="30 anni di garanzia" data-de="30 Jahre Garantie">30 anni di garanzia</b><small data-it="Garanzia strutturale Waterair" data-de="Waterair-Strukturgarantie">Garanzia strutturale Waterair</small></div>
+    <div class="trustitem"><div class="icon">🤝</div><b data-it="Un unico referente" data-de="Ein Ansprechpartner">Un unico referente</b><small data-it="Prima, durante e dopo" data-de="Vor, während und danach">Prima, durante e dopo</small></div>
+    <div class="trustitem"><div class="icon">📍</div><b data-it="Tutto il Ticino" data-de="Ganzes Tessin">Tutto il Ticino</b><small data-it="Servizio in tutto il Cantone" data-de="Service im ganzen Kanton">Servizio in tutto il Cantone</small></div>
+  </div>
 </div>
-<div style="text-align:center;margin-top:25px"><a href="#configuratore" class="btn primary">CONFIGURA LA TUA PISCINA</a></div>
-</div></section>
 
-<section class="local"><div class="wrap"><div class="head"><div class="kicker">TICINO</div><h2 data-it="Tutto il Ticino" data-de="Das ganze Tessin">Tutto il Ticino</h2><p data-it="Siamo vicini ai nostri clienti in tutto il Cantone." data-de="Wir sind für unsere Kunden im ganzen Kanton da.">Siamo vicini ai nostri clienti in tutto il Cantone.</p></div><div class="locations"><span class="loc" style="background:#e5fbf7;border-color:#38cfc5;color:#075b66">✓ Tutto il Ticino</span></div></div></section>
+<section id="piscine">
+  <div class="wrap">
+    <div class="head">
+      <div class="kicker">PISCINE WATERAIR</div>
+      <h2 data-it="Il pool è il protagonista" data-de="Der Pool steht im Mittelpunkt">Il pool è il protagonista</h2>
+      <p data-it="Soluzioni moderne, eleganti e personalizzabili per trasformare il tuo spazio in un luogo da vivere ogni giorno." data-de="Moderne, elegante und anpassbare Poollösungen für Ihren Garten und Ihr Zuhause.">Soluzioni moderne, eleganti e personalizzabili per trasformare il tuo spazio in un luogo da vivere ogni giorno.</p>
+    </div>
+    <div class="poolGrid">
+      <article class="poolCard">
+        <img src="https://images.unsplash.com/photo-1572331165267-854da2b10ccc?auto=format&fit=crop&w=1100&q=90" alt="Piscina moderna">
+        <div class="poolInfo"><span>DESIGN MODERNO</span><h3 data-it="Piscine su misura" data-de="Pools nach Maß">Piscine su misura</h3><p data-it="Progettate attorno al tuo spazio e al tuo stile." data-de="Geplant passend zu Ihrem Grundstück und Stil.">Progettate attorno al tuo spazio e al tuo stile.</p></div>
+      </article>
+      <article class="poolCard">
+        <img src="https://images.unsplash.com/photo-1576013551627-0cc20b96c2a7?auto=format&fit=crop&w=1100&q=90" alt="Piscina privata">
+        <div class="poolInfo"><span>COMFORT</span><h3 data-it="Da vivere ogni giorno" data-de="Für jeden Tag">Da vivere ogni giorno</h3><p data-it="Comfort, tecnologia e soluzioni pensate per la famiglia." data-de="Komfort, Technik und Lösungen für die ganze Familie.">Comfort, tecnologia e soluzioni pensate per la famiglia.</p></div>
+      </article>
+      <article class="poolCard">
+        <img src="https://images.unsplash.com/photo-1560089000-7433a4ebbd64?auto=format&fit=crop&w=1100&q=90" alt="Piscina esterna">
+        <div class="poolInfo"><span>WATERAIR</span><h3 data-it="Qualità che dura" data-de="Qualität, die bleibt">Qualità che dura</h3><p data-it="Materiali e soluzioni pensati per durare nel tempo." data-de="Materialien und Lösungen für langfristige Qualität.">Materiali e soluzioni pensati per durare nel tempo.</p></div>
+      </article>
+    </div>
+  </div>
+</section>
 
-<section class="contact" id="contatto"><div class="wrap"><div class="contactbox"><div class="eyebrow">AQUA MOTION</div><h2 data-it="Realizza la piscina che desideri." data-de="Verwirklichen Sie Ihren Wunschpool.">Realizza la piscina che desideri.</h2><p data-it="Raccontaci cosa desideri. Ti aiutiamo a trovare la soluzione giusta per il tuo spazio, senza impegno." data-de="Erzählen Sie uns von Ihrem Wunschpool. Wir helfen Ihnen unverbindlich, die passende Lösung für Ihr Grundstück zu finden.">Raccontaci cosa desideri. Ti aiutiamo a trovare la soluzione giusta per il tuo spazio, senza impegno.</p><div class="cta"><a class="btn primary" href="https://wa.me/41763478247?text=Ciao%20Aqua%20Motion%2C%20vorrei%20una%20consulenza%20per%20una%20piscina.">WHATSAPP</a><a class="btn ghost" href="mailto:info@aqua-motion.ch">EMAIL</a></div><p><b>+41 76 347 82 47</b> · info@aqua-motion.ch</p></div></div></section>
+<section class="configSec" id="configuratore">
+  <div class="wrap">
+    <div class="configIntro">
+      <div class="eyebrow">CONFIGURATORE AQUA MOTION</div>
+      <h2 data-it="Configura la tua piscina in 5 passi" data-de="Konfigurieren Sie Ihren Pool in 5 Schritten">Configura la tua piscina in 5 passi</h2>
+      <p data-it="Semplice e veloce: scegli le caratteristiche principali e invia direttamente la tua richiesta su WhatsApp." data-de="Einfach und schnell: Wählen Sie die wichtigsten Merkmale und senden Sie Ihre Anfrage direkt per WhatsApp.">Semplice e veloce: scegli le caratteristiche principali e invia direttamente la tua richiesta su WhatsApp.</p>
+    </div>
+
+    <div class="progress">
+      <div class="prog active">1 FORMA</div><div class="prog">2 MISURA</div><div class="prog">3 LINEA</div><div class="prog">4 EXTRA</div><div class="prog">5 CONTATTO</div>
+    </div>
+
+    <div class="panel">
+      <div class="screen active" data-step="0">
+        <h3 data-it="1. Scegli la forma" data-de="1. Form wählen">1. Scegli la forma</h3>
+        <div class="choices" data-key="model">
+          <button class="choice selected" data-value="Rettangolare"><b data-it="Rettangolare" data-de="Rechteckig">Rettangolare</b><small>Tina & Romy</small></button>
+          <button class="choice" data-value="Ovale"><b data-it="Ovale" data-de="Oval">Ovale</b><small>Ilona</small></button>
+          <button class="choice" data-value="Curva"><b data-it="Curva" data-de="Geschwungen">Curva</b><small>Adele</small></button>
+          <button class="choice" data-value="Forma libera"><b data-it="Forma libera" data-de="Freiform">Forma libera</b><small>Inaya & Maria</small></button>
+        </div>
+      </div>
+
+      <div class="screen" data-step="1">
+        <h3 data-it="2. Scegli la dimensione" data-de="2. Größe wählen">2. Scegli la dimensione</h3>
+        <div class="choices" data-key="size">
+          <button class="choice selected" data-value="Compatta"><b data-it="Compatta" data-de="Kompakt">Compatta</b><small data-it="Per spazi contenuti" data-de="Für kleinere Flächen">Per spazi contenuti</small></button>
+          <button class="choice" data-value="Media"><b data-it="Media" data-de="Mittel">Media</b><small data-it="Comfort per la famiglia" data-de="Komfort für die Familie">Comfort per la famiglia</small></button>
+          <button class="choice" data-value="Grande"><b data-it="Grande" data-de="Groß">Grande</b><small data-it="Più spazio per nuotare" data-de="Mehr Platz zum Schwimmen">Più spazio per nuotare</small></button>
+          <button class="choice" data-value="Da definire"><b data-it="Da definire" data-de="Noch offen">Da definire</b><small data-it="La scegliamo insieme" data-de="Wir beraten Sie">La scegliamo insieme</small></button>
+        </div>
+      </div>
+
+      <div class="screen" data-step="2">
+        <h3 data-it="3. Scegli la linea" data-de="3. Ausstattung wählen">3. Scegli la linea</h3>
+        <div class="choices" data-key="equip">
+          <button class="choice selected" data-value="Essential"><b>Essential</b><small data-it="Semplice e funzionale" data-de="Einfach und funktional">Semplice e funzionale</small></button>
+          <button class="choice" data-value="Eco-Wat"><b>Eco-Wat</b><small data-it="Efficienza e comfort" data-de="Effizienz und Komfort">Efficienza e comfort</small></button>
+          <button class="choice" data-value="Eco-Pilot"><b>Eco-Pilot</b><small data-it="Più automazione" data-de="Mehr Automatisierung">Più automazione</small></button>
+          <button class="choice" data-value="Top+"><b>Top+</b><small data-it="Massimo comfort" data-de="Maximaler Komfort">Massimo comfort</small></button>
+        </div>
+      </div>
+
+      <div class="screen" data-step="3">
+        <h3 data-it="4. Aggiungi gli extra" data-de="4. Extras hinzufügen">4. Aggiungi gli extra</h3>
+        <div class="choices">
+          <button class="choice" data-extra="Pompa di calore"><b data-it="Pompa di calore" data-de="Wärmepumpe">Pompa di calore</b><small data-it="Più mesi di utilizzo" data-de="Längere Poolsaison">Più mesi di utilizzo</small></button>
+          <button class="choice" data-extra="Illuminazione LED"><b>LED</b><small data-it="Atmosfera anche la sera" data-de="Atmosphäre am Abend">Atmosfera anche la sera</small></button>
+          <button class="choice" data-extra="Copertura di sicurezza"><b data-it="Copertura" data-de="Sicherheitsabdeckung">Copertura</b><small data-it="Più protezione" data-de="Mehr Schutz">Più protezione</small></button>
+          <button class="choice" data-extra="Trattamento al sale"><b data-it="Trattamento al sale" data-de="Salzwasseraufbereitung">Trattamento al sale</b><small data-it="Gestione confortevole dell'acqua" data-de="Komfortable Wasserpflege">Gestione confortevole dell'acqua</small></button>
+        </div>
+      </div>
+
+      <div class="screen" data-step="4">
+        <h3 data-it="5. Richiedi la tua consulenza" data-de="5. Beratung anfragen">5. Richiedi la tua consulenza</h3>
+        <div class="summary" id="summary"></div>
+        <div class="form">
+          <input id="name" data-it-placeholder="Nome e cognome" data-de-placeholder="Vor- und Nachname" placeholder="Nome e cognome">
+          <input id="place" data-it-placeholder="Località in Ticino" data-de-placeholder="Ort im Tessin" placeholder="Località in Ticino">
+          <input id="phone" class="full" data-it-placeholder="Telefono" data-de-placeholder="Telefon" placeholder="Telefono">
+        </div>
+        <button id="send" class="btn primary send" data-it="INVIA SU WHATSAPP" data-de="PER WHATSAPP SENDEN">INVIA SU WHATSAPP</button>
+      </div>
+
+      <div class="navBtns">
+        <button id="back" class="btn" style="background:#e9eff1;color:#163745;visibility:hidden" data-it="← Indietro" data-de="← Zurück">← Indietro</button>
+        <button id="next" class="btn primary" data-it="Avanti →" data-de="Weiter →">Avanti →</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="servizi">
+  <div class="wrap">
+    <div class="head"><div class="kicker">SERVIZIO COMPLETO</div><h2 data-it="Un unico partner per tutto" data-de="Ein Partner für alles">Un unico partner per tutto</h2></div>
+    <div class="services">
+      <div class="service"><div class="ico">💬</div><h3 data-it="Consulenza" data-de="Beratung">Consulenza</h3><p data-it="Ascoltiamo le tue idee e troviamo la soluzione giusta." data-de="Wir hören zu und finden die passende Lösung.">Ascoltiamo le tue idee e troviamo la soluzione giusta.</p></div>
+      <div class="service"><div class="ico">📐</div><h3 data-it="Progettazione" data-de="Planung">Progettazione</h3><p data-it="Soluzioni personalizzate per spazio, stile ed esigenze." data-de="Individuelle Lösungen für Grundstück, Stil und Wünsche.">Soluzioni personalizzate per spazio, stile ed esigenze.</p></div>
+      <div class="service"><div class="ico">⚙️</div><h3 data-it="Installazione" data-de="Installation">Installazione</h3><p data-it="Coordinamento e montaggio professionale." data-de="Professionelle Koordination und Montage.">Coordinamento e montaggio professionale.</p></div>
+      <div class="service"><div class="ico">💧</div><h3 data-it="Manutenzione & assistenza" data-de="Wartung & Service">Manutenzione & assistenza</h3><p data-it="Supporto locale prima, durante e dopo." data-de="Lokaler Service vor, während und nach dem Bau.">Supporto locale prima, durante e dopo.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="coverage">
+  <div class="wrap coverBox">
+    <div class="coverVisual" aria-label="Piscina in Ticino"></div>
+    <div>
+      <div class="eyebrow" data-it="SIAMO IN TUTTO IL TICINO" data-de="WIR SIND IM GANZEN TESSIN">SIAMO IN TUTTO IL TICINO</div>
+      <h2 data-it="Vicini a te, ovunque nel Cantone." data-de="In Ihrer Nähe – im ganzen Kanton.">Vicini a te, ovunque nel Cantone.</h2>
+      <p data-it="Aqua Motion segue i clienti in tutto il Ticino con un unico referente, dalla prima consulenza fino alla manutenzione della piscina." data-de="Aqua Motion betreut Kunden im ganzen Tessin – von der ersten Beratung bis zur späteren Poolwartung.">Aqua Motion segue i clienti in tutto il Ticino con un unico referente, dalla prima consulenza fino alla manutenzione della piscina.</p>
+      <div class="badges">
+        <span class="badge">✓ Waterair Partner</span>
+        <span class="badge" data-it="✓ Tutto il Ticino" data-de="✓ Ganzes Tessin">✓ Tutto il Ticino</span>
+        <span class="badge" data-it="✓ Assistenza locale" data-de="✓ Lokaler Service">✓ Assistenza locale</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="contact" id="contatto">
+  <div class="wrap">
+    <div class="contactbox">
+      <div class="eyebrow">AQUA MOTION</div>
+      <h2 data-it="Realizza la piscina che desideri." data-de="Verwirklichen Sie Ihren Wunschpool.">Realizza la piscina che desideri.</h2>
+      <p data-it="Scrivici su WhatsApp. Ti aiutiamo a capire quale soluzione è più adatta al tuo spazio, in modo semplice e senza impegno." data-de="Schreiben Sie uns per WhatsApp. Wir helfen Ihnen unkompliziert und unverbindlich, die passende Lösung zu finden.">Scrivici su WhatsApp. Ti aiutiamo a capire quale soluzione è più adatta al tuo spazio, in modo semplice e senza impegno.</p>
+      <div class="cta">
+        <a class="btn primary" href="https://wa.me/41763478247?text=Ciao%20Aqua%20Motion%2C%20vorrei%20una%20consulenza%20per%20una%20piscina.">WHATSAPP</a>
+        <a class="btn ghost" href="mailto:info@aqua-motion.ch">EMAIL</a>
+      </div>
+      <p><b>+41 76 347 82 47</b> · info@aqua-motion.ch</p>
+    </div>
+  </div>
+</section>
 </main>
 
-<footer><div class="wrap foot"><div><div class="logo"><span class="mark">≈</span><span class="logotype"><b>AQUA MOTION</b><small>POOL SOLUTIONS</small></span></div><p>Piscine Waterair · progettazione · installazione · manutenzione · assistenza in Ticino.</p></div><div><h4>Zona operativa</h4><p><b>Tutto il Ticino</b><br>Consulenza, installazione e assistenza in tutto il Cantone.</p></div><div><h4>Contatti</h4><p>+41 76 347 82 47<br>info@aqua-motion.ch<br>aqua-motion.ch</p></div></div></footer>
+<footer>
+  <div class="wrap foot">
+    <div>
+      <div class="logo"><span class="logoMark">≈</span><span class="logotype"><b>AQUA MOTION</b><small>POOL SOLUTIONS</small></span></div>
+      <p data-it="Piscine Waterair, consulenza, progettazione, installazione, manutenzione e assistenza in tutto il Ticino." data-de="Waterair-Pools, Beratung, Planung, Installation, Wartung und Service im ganzen Tessin.">Piscine Waterair, consulenza, progettazione, installazione, manutenzione e assistenza in tutto il Ticino.</p>
+    </div>
+    <div><h4 data-it="Servizi" data-de="Leistungen">Servizi</h4><p data-it="Consulenza<br>Progettazione<br>Installazione<br>Manutenzione<br>Assistenza" data-de="Beratung<br>Planung<br>Installation<br>Wartung<br>Service">Consulenza<br>Progettazione<br>Installazione<br>Manutenzione<br>Assistenza</p></div>
+    <div><h4 data-it="Contatti" data-de="Kontakt">Contatti</h4><p>+41 76 347 82 47<br>info@aqua-motion.ch<br>aqua-motion.ch</p></div>
+  </div>
+</footer>
+
 <a class="floatWA" href="https://wa.me/41763478247?text=Ciao%20Aqua%20Motion%2C%20vorrei%20informazioni%20per%20una%20piscina.">WhatsApp</a>
 
 <script>
-let step=0,lang="it";const data={model:"Tina & Romy",size:"Compatta",equip:"Essential",extras:[]};
-const screens=[...document.querySelectorAll(".screen")],progs=[...document.querySelectorAll(".prog")];
-function show(){screens.forEach((x,i)=>x.classList.toggle("active",i===step));progs.forEach((x,i)=>x.classList.toggle("active",i===step));back.style.visibility=step?"visible":"hidden";next.style.display=step===4?"none":"inline-flex";if(step===4)renderSummary()}
-document.querySelectorAll(".choices[data-key]").forEach(g=>g.querySelectorAll(".choice").forEach(b=>b.onclick=()=>{g.querySelectorAll(".choice").forEach(x=>x.classList.remove("selected"));b.classList.add("selected");data[g.dataset.key]=b.dataset.value}));
-document.querySelectorAll("[data-extra]").forEach(b=>b.onclick=()=>{b.classList.toggle("selected");data.extras=[...document.querySelectorAll("[data-extra].selected")].map(x=>x.dataset.extra)});
-next.onclick=()=>{if(step<4){step++;show()}};back.onclick=()=>{if(step>0){step--;show()}};
-function renderSummary(){summary.innerHTML="<b>La tua configurazione</b><br>Modello: "+data.model+"<br>Dimensione: "+data.size+"<br>Linea: "+data.equip+"<br>Extra: "+(data.extras.join(", ")||"Nessuno selezionato")}
-send.onclick=()=>{let msg=`Ciao Aqua Motion, vorrei ricevere una consulenza.%0A%0ANome: ${encodeURIComponent(name.value||"-")}%0ALocalità: ${encodeURIComponent(place.value||"-")}%0ATelefono: ${encodeURIComponent(phone.value||"-")}%0A%0AModello: ${encodeURIComponent(data.model)}%0ADimensione: ${encodeURIComponent(data.size)}%0ALinea: ${encodeURIComponent(data.equip)}%0AExtra: ${encodeURIComponent(data.extras.join(", ")||"-")}`;location.href="https://wa.me/41763478247?text="+msg};
-function setLang(l){lang=l;document.documentElement.lang=l;itBtn.classList.toggle("active",l==="it");deBtn.classList.toggle("active",l==="de");document.querySelectorAll("[data-it]").forEach(x=>x.innerHTML=x.dataset[l])}
-itBtn.onclick=()=>setLang("it");deBtn.onclick=()=>setLang("de");show();
+let step=0, lang="it";
+const data={model:"Rettangolare",size:"Compatta",equip:"Essential",extras:[]};
+const screens=[...document.querySelectorAll(".screen")], progs=[...document.querySelectorAll(".prog")];
+
+function showStep(){
+  screens.forEach((x,i)=>x.classList.toggle("active",i===step));
+  progs.forEach((x,i)=>x.classList.toggle("active",i===step));
+  back.style.visibility=step?"visible":"hidden";
+  next.style.display=step===4?"none":"inline-flex";
+  if(step===4) renderSummary();
+}
+
+document.querySelectorAll(".choices[data-key]").forEach(group=>{
+  group.querySelectorAll(".choice").forEach(btn=>{
+    btn.onclick=()=>{
+      group.querySelectorAll(".choice").forEach(x=>x.classList.remove("selected"));
+      btn.classList.add("selected");
+      data[group.dataset.key]=btn.dataset.value;
+    };
+  });
+});
+
+document.querySelectorAll("[data-extra]").forEach(btn=>{
+  btn.onclick=()=>{
+    btn.classList.toggle("selected");
+    data.extras=[...document.querySelectorAll("[data-extra].selected")].map(x=>x.dataset.extra);
+  };
+});
+
+next.onclick=()=>{if(step<4){step++;showStep()}};
+back.onclick=()=>{if(step>0){step--;showStep()}};
+
+function renderSummary(){
+  const title=lang==="it"?"La tua configurazione":"Ihre Konfiguration";
+  const extraLabel=lang==="it"?"Extra":"Extras";
+  summary.innerHTML=`<b>${title}</b><br>Forma/Form: ${data.model}<br>Dimensione/Größe: ${data.size}<br>Linea/Ausstattung: ${data.equip}<br>${extraLabel}: ${data.extras.join(", ")||"-"}`;
+}
+
+send.onclick=()=>{
+  const intro=lang==="it"?"Ciao Aqua Motion, vorrei ricevere una consulenza.":"Guten Tag Aqua Motion, ich möchte eine Beratung.";
+  const msg=`${encodeURIComponent(intro)}%0A%0A${encodeURIComponent("Nome/Name: "+(name.value||"-"))}%0A${encodeURIComponent("Località/Ort: "+(place.value||"-"))}%0A${encodeURIComponent("Telefono/Telefon: "+(phone.value||"-"))}%0A%0A${encodeURIComponent("Forma/Form: "+data.model)}%0A${encodeURIComponent("Dimensione/Größe: "+data.size)}%0A${encodeURIComponent("Linea/Ausstattung: "+data.equip)}%0A${encodeURIComponent("Extra: "+(data.extras.join(", ")||"-"))}`;
+  location.href="https://wa.me/41763478247?text="+msg;
+};
+
+function setLang(l){
+  lang=l;
+  document.documentElement.lang=l;
+  itBtn.classList.toggle("active",l==="it");
+  deBtn.classList.toggle("active",l==="de");
+  document.querySelectorAll("[data-it]").forEach(el=>el.innerHTML=el.dataset[l]);
+  document.querySelectorAll("[data-it-placeholder]").forEach(el=>el.placeholder=el.dataset[l+"Placeholder"]);
+  document.title=l==="it"?"Aqua Motion | Piscine Waterair in tutto il Ticino":"Aqua Motion | Waterair Pools im ganzen Tessin";
+  if(step===4) renderSummary();
+}
+itBtn.onclick=()=>setLang("it");
+deBtn.onclick=()=>setLang("de");
+showStep();
 </script>
-</body></html>
+</body>
+</html>
